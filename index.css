@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    margin: 0px;
+    font-family: roboto;
+}
+
+.herocontainer {
+    background-color: #1F2937;
+    padding-bottom: 100px;
+}
+.navcontainer {
+    color: #F9FaF8;
+    display: flex;
+    justify-content: center;
+}
+
+
+nav {
+    display: flex;
+    flex-basis: 70vw;
+    gap: 25px;
+}
+
+nav > ul {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+li {
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    flex: 1;
+}
+
+.heroblock {
+    color: #F9FaF8;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.blurbcontainer {
+    flex:1;
+}
+
+.heromaintext {
+    font-size: 48px;
+    font-weight:bolder;
+}
+
+.herosecondarytext {
+    font-size: 18px;
+    color: #E5E7EB
+}
+
+.heroimage {
+    flex: 1;
+}
+
+.heroimage > img {
+    max-width: 100%;
+}
+
+.signupbutton {
+    background-color: #3882F6;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 8px;
+}
